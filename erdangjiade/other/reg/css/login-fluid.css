@@ -1,0 +1,218 @@
+/**
+ * login Common Style
+ * @author: LangLee;
+ * 基于 common.css
+ **/
+
+body { background: #fff;}
+
+.wpl { width: 100%; max-width: 1080px; margin: 0 auto; }
+.log-row {width:92.5925925%; margin:0 3.7037037%;}/*1000/1080,40/1080*/
+
+.log-wrap { position: relative; padding: 50px 0; z-index: 5; }
+.log-logo, .log-title, .log-nav { float: left; }
+
+.log-hd { height: 80px; margin-bottom: 20px; position: relative; }
+/* logo */
+.log-logo { margin-right: 20px; position: absolute;}
+.log-logo a { display: block; }
+/* logo 标题/副标题 */
+.log-title { height: 66px; padding: 7px 0; position: absolute; margin-left: 215px;}
+.log-title strong, .log-title p { display: block; }
+.log-title strong { font-size: 26px; }
+.log-title p { font-size: 16px; }
+/* 导航 */
+.log-nav { display: block; height: 40px; margin: 20px 0 20px 476px;}
+.log-nav li { float: left;  }
+.log-nav li a { display: block; padding: 0 11px; font-size: 14px; line-height: 40px; color: #7b8b95; }
+.log-nav li a:hover { text-decoration: none; color: #369; }
+
+/* 主体 */
+.log-content { min-height: 330px; height: 360px; border-top: 2px solid #e4e9ee; position:relative; background: #FFF url("../images/log-content-bg.png") repeat-x 0 100%;}
+
+.login-wrap { width: 70%;/*700/1000*/  }
+
+
+/* 输入框图标 */
+/*小米登陆隐藏*/
+.login-wrap-input{ margin-right: 20%; width: 80%;}
+/*小米登陆显示*/
+/*.login-wrap-input { width: 57.1428572%; }*//*400/700*/
+.la_password{border: none; position:absolute; top:0; left:30px; z-index:1; height: 16px;font-size: 16px;padding: 12px 2.5%;line-height: 16px;color: #b8c4ce;background: #fff;width: 90%;}
+#password{ position:absolute; z-index:10; background:none;}
+
+/* 忘记密码 */
+.login-msg { height: 28px; line-height: 28px; margin: 20px 0; display: block; font-size: 14px; }
+.login-msg .login-forget { text-decoration: none; color: #369; }
+.login-msg .login-forget:hover { color: #3498db; }
+
+/* 第三方帐号登录 */
+.login-wrap-party { width: 40%; margin-top: 40px; margin-right:2.8571428%; }/*280/700,20/700*/
+.login-party { padding-top: 20px; }
+.log-mi { font-size: 14px; width: 120px; display: table; margin: 0 auto; color: #b8c4ce; text-align: center; }
+.log-mi img { width: 70px; height: 70px; display: block; margin: 0 auto; opacity: 0.8; }
+.log-mi p { height: 20px; line-height: 20px; margin-top: 10px; }
+.log-mi:hover { color: #369; text-decoration: none; }
+.log-mi:hover img { opacity: 1; }
+
+/* 注册 */
+.log-reg { height: 50px; line-height: 50px; text-align: center; display: block; margin-top: 60px; font-size: 14px; color: #444; }
+/* 卡通 */
+.log-shade { width: 50px; height: 228px; position: absolute; top: 40px; /*left: 690px;*/ right: 330px; background: url("../images/log-shade.png") no-repeat 0 0; border-right: 1px solid #e9ecee;}
+.log-cartoon { width: 335px; height: 307px; position: absolute; top: 38px; /*left: 700px;*/ right: 40px; 
+               background: url("../images/log-cartoon.png") no-repeat 0 0; 
+               background-image: -webkit-image-set(url("../images/log-cartoon.png") 1x, url("../images/log-cartoon@2x.png") 2x);
+               background-image: -moz-image-set(url("../images/log-cartoon.png") 1x,url("../images/log-cartoon@2x.png") 2x);
+               background-image: -ms-image-set(url("../images/log-cartoon.png") 1x,url("../images/log-cartoon@2x.png") 2x);
+               background-image: -o-image-set(url("../images/log-cartoon.png") 1x,url("../images/log-cartoon@2x.png") 2x);
+}
+/* 页脚 */
+.log-footer { color: #b8c4cc; font-size: 14px; height: 30px; line-height: 30px; margin-top: 10px; }
+.log-footer p{display: inline-block;float: left;}
+
+/* 云朵 */
+.log-cloud-1 { width: 155px; height: 88px; top: 50px; position: absolute; left: 3.9285714%; z-index: 0; }
+.log-cloud-2 { width: 74px; height: 40px; top: 15px; position: absolute; left: 17.8571428%;  z-index: 0; }
+.log-cloud-3 { width: 155px; height: 88px; top: 160px; position: absolute; right: 9.2857142%;  z-index: 0; }
+.log-cloud-4 { width: 74px; height: 40px; top: 300px; position: absolute; right: 3.5714285%;  z-index: 0; }
+.log-cloud-1 i, .log-cloud-3 i{ font-size: 160px; line-height: 85px; color: #fff; }
+.log-cloud-2 i, .log-cloud-4 i{ font-size: 80px; line-height: 30px; color: #fff; }
+
+
+/*找回密码*/
+.fg-code{
+    width: 50%;
+    float: left;
+}
+.fg-code-wp{
+    height: 40px;
+    margin-top: 40px;
+    width: 50%;
+    float: left;
+}
+.fg-code-pic{
+    display: block;
+    float: left;
+    margin-left: 10%;
+    width: 128px;
+    height: 40px;
+}
+.fg-code-pic img{
+    width: 100%;
+    height: auto;
+}
+.fg-code-t{
+    line-height: 40px;
+    margin-left: 2%;
+}
+/*找回密码发送邮件提醒*/
+.fg-wp{ 
+    margin: 100px 0;
+}
+.fg-msg {
+    width: 60%; /*700/1000*/ /*600/1000*/
+    margin: 0 auto;
+}
+.fg-msg .fg-mail{
+    display: block;
+    width: 95px;
+    height: 95px;
+    background-size: contain;
+    float: left;
+    margin-right: 20px;
+}
+.fg-msg .clo{
+    background: url("../images/fg-mail.png") no-repeat center center ;
+    background-image: -webkit-image-set(url("../images/fg-mail.png") 1x, url("../images/fg-mail@2x.png") 2x);
+    background-image: -moz-image-set(url("../images/fg-mail.png") 1x,url("../images/fg-mail@2x.png") 2x);
+    background-image: -ms-image-set(url("../images/fg-mail.png") 1x,url("../images/fg-mail@2x.png") 2x);
+    background-image: -o-image-set(url("../images/fg-mail.png") 1x,url("../images/fg-mail@2x.png") 2x);
+}
+.fg-msg .ope{
+    background: url("../images/fg-mail-s.png") ;
+    background-image: -webkit-image-set(url("../images/fg-mail-s.png") 1x, url("../images/fg-mail-s@2x.png") 2x);
+    background-image: -moz-image-set(url("../images/fg-mail-s.png") 1x,url("../images/fg-mail-s@2x.png") 2x);
+    background-image: -ms-image-set(url("../images/fg-mail-s.png") 1x,url("../images/fg-mail-s@2x.png") 2x);
+    background-image: -o-image-set(url("../images/fg-mail-s.png") 1x,url("../images/fg-mail-s@2x.png") 2x);
+}
+.fg-msg .worn{
+    background: url("../images/fg-mail-w.png") ;
+    background-image: -webkit-image-set(url("../images/fg-mail-w.png") 1x, url("../images/fg-mail-w@2x.png") 2x);
+    background-image: -moz-image-set(url("../images/fg-mail-w.png") 1x,url("../images/fg-mail-w@2x.png") 2x);
+    background-image: -ms-image-set(url("../images/fg-mail-w.png") 1x,url("../images/fg-mail-w@2x.png") 2x);
+    background-image: -o-image-set(url("../images/fg-mail-w.png") 1x,url("../images/fg-mail-w@2x.png") 2x);
+}
+.fg-msg .fg-cont{
+    font-size: 14px;
+    padding: 5px 0;
+    color: #b8c4ce;
+    margin-left: 115px;
+}
+.fg-msg .fg-cont .fg-cont-t{
+    font-size: 20px;
+    color: #5d6d7e;
+}
+
+/* 登陆或注册验证错误 */
+.user-input-er-span {
+    color:#b8c4ce;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    line-height:38px;
+    height:38px;
+    display:block;
+    padding-right: 35px;
+    padding-left: 8px;
+    font-size: 14px;
+    background: #FFF;
+}
+.user-input-er-span b{color:#b8c4ce; line-height:38px; font-family:"微软雅黑"; font-weight:normal;} 
+.user-input-er-span i:before {
+    content: "\e606"; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 38px;
+    width: 35px;
+    display: block;
+    font-size: 20px;
+    color: #fcab2b;
+    line-height: 38px;
+    text-align: center;
+}
+/* 验证正确 */
+.user-input-ri-span i:before {
+    content: "\e600"; 
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    line-height:38px;
+    height:48px;
+    display:block;
+    width: 35px;
+    font-size: 20px;
+    color: #1abc9c;
+    line-height: 38px;
+    text-align: center;
+}
+
+/*字体图标附加样式*/
+.log-i{ position: absolute; top: 10px; }
+.mls { margin-left: 30px !important; }  
+.la_password{color: #b8c4ce;font-size: 16px;position: absolute;padding: 12px 2.5%;top: 0;height: 16px;line-height: 16px;left: 0; z-index:1;}
+
+/*字体图标附加样式 end*/
+
+/*当浏览器的可视区域小于960px*/
+@media screen and (max-width: 960px) {
+    .log-nav { display: none; } 
+    .log-cartoon,.log-shade{display: none;}
+    .login-wrap{width: 100%}
+    .login-wrap-party{margin-right: 0;}
+    /*.fg-code-pic{width: 13%;}*/
+    .fg-msg{ width: 90%}
+
+}
+
+

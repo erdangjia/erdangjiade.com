@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>parentsUntil([exp|ele][,fil])</title>
+<link type="text/css" rel="stylesheet" href="style/style.css" tppabs="http://www.erdangjiade.com/manual/jquery/jquery/style/style.css"  />
+</head>
+<body id="split">
+<div id="content">
+  
+  <div rel="parentsUntil">
+    <h2><span>返回值:jQuery</span>parentsUntil([exp|ele][,fil])</h2>
+    <h3>概述</h3>
+    <div class="desc">
+      <p>查找当前元素的所有的父辈元素，直到遇到匹配的那个元素为止。</p>
+      <div class="longdesc">
+        <p>如果提供的jQuery代表了一组DOM元素，.parentsUntil()方法也能让我们找遍所有元素的祖先元素，直到遇到了一个跟提供的参数匹配的元素的时候才会停下来。这个返回的jQuery对象里包含了下面所有找到的父辈元素，但不包括那个选择器匹配到的元素。
+		
+		</p>
+      </div>
+    </div>
+    <h3>参数</h3>
+    <div>
+      <h4><strong>[expr][,filter]<em> </em></strong><span>String,String</span><em>V1.4</em></h4>
+      <p><strong>expr</strong>: 用于筛选祖先元素的表达式</p>
+      <p><strong>filter</strong>: 一个字符串，其中包含一个选择表达式匹配元素。</p>
+      <h4><strong>[element][,filter]<em> </em></strong><span>DOMElement,String</span><em>V1.6</em></h4>
+      <p><strong>element</strong>:用于筛选祖先元素的DOM元素</p>
+      <p><strong>filter</strong>: 一个字符串，其中包含一个选择表达式匹配元素。</p>
+    </div>
+    <div class="example">
+      <h3>示例</h3>
+      <span id="f_ad2"></span>
+      <h4>描述:</h4>
+      <p>查找item-a的祖先，但不包括level-1</p>
+      <h5>HTML 代码:</h5>
+      <pre><code>&lt;ul class="level-1"&gt;
+  &lt;li class="item-i"&gt;I&lt;/li&gt;
+  &lt;li class="item-ii"&gt;II
+    &lt;ul class="level-2"&gt;
+      &lt;li class="item-a"&gt;A&lt;/li&gt;
+      &lt;li class="item-b"&gt;B
+        &lt;ul class="level-3"&gt;
+          &lt;li class="item-1"&gt;1&lt;/li&gt;
+          &lt;li class="item-2"&gt;2&lt;/li&gt;
+          &lt;li class="item-3"&gt;3&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li class="item-c"&gt;C&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class="item-iii"&gt;III&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+      <h5>jQuery 代码:</h5>
+      <pre><code>$('li.item-a').parentsUntil('.level-1')
+    .css('background-color', 'red');</code></pre>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+<div style="display:none">
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F327b016d332d3a7e4043796cab725707' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</div> 

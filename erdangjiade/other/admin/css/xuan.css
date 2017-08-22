@@ -1,0 +1,145 @@
+
+.common_txt{width:280px;}
+.table .td_left{
+    width:120px;
+    vertical-align: middle
+}
+.return{
+    margin-left: 20px;
+}
+label.error{
+    color:red;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.position_hidden{
+    position: absolute;
+    z-index: -1;
+}
+.td_pager .pager{
+    float:right
+}
+a{
+    cursor:pointer;
+}
+.bigtitle{
+    float: left;
+    font-size: 20px;
+    margin-top: 7px;
+}
+.cl{
+    clear:both
+}
+.Wdate{
+    height:30px;line-height: 30px;cursor:pointer;
+}
+.showpic{
+    max-height:160px;
+}
+.noempty{
+    padding: 20px 0;
+    text-align: center;
+}
+.pager{
+    text-align:right;
+}
+.pager span{
+    padding:0 8px;
+}
+.pager a{
+    padding:5px 8px;
+    margin-left:3px;
+    line-height:20px;
+    background:#f9f9f9;
+    border:1px solid #DBDBDB;
+    text-decoration: none
+}
+.pager a:hover,
+.pager a.current{
+    background:#00709e;
+    color:#fff;
+    border:1px solid #00709e;
+    cursor:pointer;
+}
+.state0 {
+    background: none repeat scroll 0 0 #abbac3;
+    color: #FFF;
+    cursor: pointer;
+    padding: 3px;
+    white-space: nowrap;
+}
+.state1 {
+    background: none repeat scroll 0 0 #5dab03;
+    color: #fff;
+    cursor: pointer;
+    padding: 3px;
+    white-space: nowrap;
+}
+#form .table_detail td,
+#form .table_detail{
+    border:none
+}
+.fl{
+    float:left
+}
+.fr{
+    float: right
+}
+.table .noborder{
+    border:1px solid transparent;
+    background-color: #FFF
+}
+.editable{
+    display: none
+}
+.nodate{
+    display: inline-block;
+    padding:5px 4px
+}
+#treeDemo{
+    height:400px;
+    overflow: auto
+}
+.search_area{
+    text-align: right;
+    float:right;
+}
+#ajax_lists{
+    padding:10px 20px;
+}
+.indexBox{
+    float:left;
+}
+.widget-body{
+    height:920px;
+}
+.navbar-header .logo-word {
+    display: inline-block;
+    padding: 10px 0;
+    line-height: 30px;
+    vertical-align: top;
+}
+#grid-pager{
+    padding:30px 0
+}
+.table_detail .btn-sm{margin-right: 20px}
+.label_width{width:80px;display: inline-block}
+.icon_two{
+    position: relative;left:2px;top:2px;
+}
+ul li{
+    padding: 0;margin:0;list-style-type: none
+}
+.jsons li{
+    margin: 5px 0 0 10px;
+    border:1px dotted red
+}
+.jsons li.li_jsons,.jsons li.li_jsons2{
+    border:1px dotted #FFF
+}
+.codes,.codes2,.names{
+    width:120px
+}
+.urls{
+    width:350px
+}
