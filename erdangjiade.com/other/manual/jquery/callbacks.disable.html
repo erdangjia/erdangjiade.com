@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>callbacks.disable()</title>
+<link type="text/css" rel="stylesheet" href="style/style.css" tppabs="http://www.erdangjiade.com/manual/jquery/jquery/style/style.css"  />
+</head>
+<body id="split">
+<div id="content">
+  <div rel="callbacks.disable">
+    <h2><span>����ֵ:undefined</span>callbacks.disable()</h2>
+    <h3><em>V1.7</em>����</h3>
+    <div class="desc">
+      <p>���ûص��б��еĻص� </p>
+      <div class="longdesc">
+        <p></p>
+      </div>
+    </div>
+    <div class="example">
+      <h3>ʾ��</h3>
+      <span id="f_ad2"></span>
+      <h4>����:</h4>
+      <p>ʹ�� callbacks.disable() ���ûص��б?</p>
+      <h5>jQuery ����:</h5>
+      <pre><code>// a sample logging function to be added to a callbacks list
+var foo = function( value ){
+    console.log( value );
+}
+
+var callbacks = $.Callbacks();
+
+// add the above function to the list
+callbacks.add( foo );
+
+// fire the items on the list
+callbacks.fire( 'foo' ); // outputs: foo
+
+// disable further calls being possible
+callbacks.disable();
+
+// attempt to fire with 'foobar' as an argument
+callbacks.fire( 'foobar' ); // foobar isn't output</code></pre>
+    </div>
+  </div>
+</div>
+</body>
+</html>
